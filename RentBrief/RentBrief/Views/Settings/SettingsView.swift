@@ -106,13 +106,13 @@ struct SettingsView: View {
             } label: {
                 Label("Contact Support", systemImage: "envelope")
             }
-            Link(destination: URL(string: "https://zzoutuo.github.io/RentBrief/privacy")!) {
+            Link(destination: URL(string: "https://asunnyboy861.github.io/RentBrief/privacy.html")!) {
                 Label("Privacy Policy", systemImage: "hand.raised")
             }
-            Link(destination: URL(string: "https://zzoutuo.github.io/RentBrief/terms")!) {
+            Link(destination: URL(string: "https://asunnyboy861.github.io/RentBrief/terms.html")!) {
                 Label("Terms of Use", systemImage: "doc.text")
             }
-            Link(destination: URL(string: "https://zzoutuo.github.io/RentBrief/support")!) {
+            Link(destination: URL(string: "https://asunnyboy861.github.io/RentBrief/support.html")!) {
                 Label("Support Page", systemImage: "questionmark.circle")
             }
         }
